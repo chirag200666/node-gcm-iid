@@ -1,12 +1,18 @@
-# node-gcm
+# node-gcm-iid
 [![npm](https://badge.fury.io/js/node-gcm.svg)](https://www.npmjs.com/package/node-gcm)
 
+This repo was created for publishing and maintaing the instance ID features of GCM,
+I have pushed the code to the node-gcm branch so untill they are merged I will be using this repo 
+to deploy code and maitain the npm package.
+
+clone from node-gcm
+and its info
 node-gcm is a Node.JS library for [**Google Cloud Messaging**](https://developers.google.com/cloud-messaging/).
 
 ## Installation
 
 ```bash
-$ npm install node-gcm
+$ npm install node-gcm-iid
 ```
 
 ## Requirements
@@ -22,7 +28,7 @@ If you are new to GCM you should probably look into the [documentation](https://
 According to below **Usage** reference, we could create such application:
 
 ```js
-var gcm = require('node-gcm');
+var gcm = require('node-gcm-iid');
 
 var message = new gcm.Message();
 
@@ -49,7 +55,7 @@ sender.sendNoRetry(message, { topic: '/topics/global' }, function (err, response
 ## Usage
 
 ```js
-var gcm = require('node-gcm');
+var gcm = require('node-gcm-iid');
 
 // Create a message
 // ... with default values
@@ -211,7 +217,7 @@ To enable debug mode (print requests and responses to and from GCM),
 set the `DEBUG` environment flag when running your app (assuming you use `node app.js` to run your app):
 
 ```bash
-DEBUG=node-gcm node app.js
+DEBUG=node-gcm-iid node app.js
 ```
 
 ## Donate
