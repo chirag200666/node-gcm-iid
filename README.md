@@ -1,5 +1,5 @@
 # node-gcm-iid
-[![npm](https://badge.fury.io/js/node-gcm.svg)](https://www.npmjs.com/package/node-gcm)
+[![npm](https://badge.fury.io/js/node-gcm.svg)](https://www.npmjs.com/package/node-gcm-iid)
 
 This repo was created for publishing and maintaing the instance ID features of GCM,
 I have pushed the code to the node-gcm branch so untill they are merged I will be using this repo 
