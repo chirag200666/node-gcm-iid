@@ -50,6 +50,20 @@ sender.sendNoRetry(message, { topic: '/topics/global' }, function (err, response
 	if(err) console.error(err);
 	else 	console.log(response);
 });
+
+// Set up the Instance ID with you API key
+var instanceId = new gcm.InstanceId('YOUR_API_KEY_HERE');
+
+// Subscribe a user token to a topic, 'TOPIC_NAME' e.g. 'music'
+sender.addToTopicNoRetry('TOPIC_NAME', 'SUBSCRIBER_TOKEN', function (err, response) {
+	if(err) console.error(err);
+	else 	console.log(response);
+});
+// Subscribe multiple user tokens to a topic
+sender.addToTopicNoRetry('TOPIC_NAME', ['SUBSCRIBER_TOKEN1','SUBSCRIBER_TOKEN2'], function (err, response) {
+	if(err) console.error(err);
+	else 	console.log(response);
+});
 ```
 
 ## Usage
