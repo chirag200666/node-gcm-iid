@@ -64,6 +64,11 @@ sender.addToTopicNoRetry('TOPIC_NAME', ['SUBSCRIBER_TOKEN1','SUBSCRIBER_TOKEN2']
 	if(err) console.error(err);
 	else 	console.log(response);
 });
+// UnSubscribe multiple user tokens from a topic
+sender.removeFromTopicNoRetry('TOPIC_NAME', ['SUBSCRIBER_TOKEN1','SUBSCRIBER_TOKEN2'], function (err, response) {
+	if(err) console.error(err);
+	else 	console.log(response);
+});
 ```
 
 ## Usage
