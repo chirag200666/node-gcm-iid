@@ -1,6 +1,14 @@
 Changelog
 =========
 
+**0.14.6**
+ * Adding feature to see details of a user via gcm token with details true or false
+
+**0.14.5**
+ * Added functionality to add a user to a topic
+ * Added functionality to add multiple users to a topic (different GCM API call from above)
+ * Added functionality to remove multiple users from a topic
+
 **0.14.0**
  * Added support for `to` recipient keys.
    This means that it is now possible to explicitly set something that should go in the `to` field in the request sent to GCM.

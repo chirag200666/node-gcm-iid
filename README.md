@@ -69,6 +69,11 @@ instanceId.removeFromTopicNoRetry('TOPIC_NAME', ['SUBSCRIBER_TOKEN1','SUBSCRIBER
 	if(err) console.error(err);
 	else 	console.log(response);
 });
+// See info from a user using his token, details can be true or false
+instanceId.info(SUBSCRIBER_TOKEN, details, function (err, response) {
+	if(err) console.error(err);
+	else 	console.log(response);
+});
 ```
 
 ## Usage
