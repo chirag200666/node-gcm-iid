@@ -1,8 +1,9 @@
 Changelog
 =========
 
-**0.14.6**
+**0.14.8**
  * Adding feature to see details of a user via gcm token with details true or false
+ * Adding feature to see list of topics of a user
 
 **0.14.5**
  * Added functionality to add a user to a topic

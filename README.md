@@ -75,6 +75,12 @@ instanceId.info(SUBSCRIBER_TOKEN, details, function (err, response) {
 	else 	console.log(response);
 });
 ```
+// See list of topics subscribed by a user using his token
+instanceId.listTopics(SUBSCRIBER_TOKEN, function (err, response) {
+	if(err) console.error(err);
+	else 	console.log(response);
+});
+```
 
 ## Usage
 
