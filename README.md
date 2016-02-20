@@ -1,8 +1,14 @@
 # node-gcm-iid
 [![npm](https://badge.fury.io/js/node-gcm.svg)](https://www.npmjs.com/package/node-gcm-iid)
 
-This repo was created for publishing and maintaing the instance ID features of GCM,
-I have pushed the code to the node-gcm branch so untill they are merged I will be using this repo 
+This repo was created for publishing and maintaing the instance ID features of GCM(topic refers to a gcm topic):
+* Add single user to a topic
+* Add multiple users to a topic
+* Remove user(s) from a topic
+* Info of a user : app name,connection type, last connect date etc
+* List of topics subscribed by the user
+
+I have pushed the additional code to the node-gcm branch so untill they are merged I will be using this repo 
 to deploy code and maitain the npm package.
 
 clone from node-gcm
